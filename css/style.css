@@ -39,6 +39,18 @@ body {
     background-color:#8ea1e1;
 }
 
+..bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
 /* REGOLE HEADER */
 header {
     background-color: #3161e0;
@@ -157,6 +169,11 @@ h2 {
     line-height: 1.7em;
 }
 
+.section-img {
+    width: 100%;
+    height: 100%;
+}
+
 h2, .section-paragraph {
     width: 70%;
 }
@@ -237,14 +254,6 @@ h2, .section-paragraph {
 
 
 /* MAIN */
-.debug .bg-white {
-    background-color: white;
-}
-
-.debug .bg-gray {
-    background-color: #d3d3d3;
-}
-
 .debug .container-section {
     min-height: 350px;
 }
@@ -265,9 +274,7 @@ h2, .section-paragraph {
 }
 
 /* FOOTER */
-.debug .bg-black {
-    background-color: black;
-}
+
 .debug .container-footer-big {
     min-height: 350px;
 }
