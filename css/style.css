@@ -200,7 +200,7 @@ h1 {
     margin: 2% 43%;
 }
 
-h3 {
+.h3 {
     text-align: center;
 }
 .container-section-big {
@@ -217,15 +217,41 @@ h3 {
 
 /* REGOLE FOOTER DEF */
 .container-footer-top {
-    padding-top: 1%;
-    padding-bottom: 2%;
+    padding: 15% 0;
     border-bottom: 1px solid white;
     display: flex;
     flex-direction: row;
 }
 
-.column-coral {
+.column-footer-big > * {
+    margin-top: 2%;
+}
+
+.column-footer-big {
     flex-grow: 2;
+}
+
+.h2-purple {
+    color: #8ea1e1;
+}
+
+h4 {
+    color: white;
+}
+
+.language::before {
+    background-image: url('../img/ita.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px; 
+    height: 15px;
+    content:"";
+}
+
+.language::after {
+    content: '\02C5';
+    color: white;
 }
 
 .container-footer-bottom {
